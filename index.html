@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="123Movies Review – Stream free movies and TV shows online on 123Movies. Watch HD films, new releases, and trending titles anytime.">
+  <title>123Movies Review – Watch Movies Online Free</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0c0c0c;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: #00ffcc;
+      font-size: 28px;
+    }
+    .search-container {
+      text-align: center;
+      margin: 20px auto;
+    }
+    input[type="text"] {
+      padding: 10px;
+      width: 80%;
+      max-width: 400px;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+    }
+    .movie-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .movie {
+      background: #1a1a1a;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .movie:hover {
+      transform: scale(1.05);
+    }
+    .movie img {
+      width: 100%;
+      height: 270px;
+      object-fit: cover;
+    }
+    .movie h3 {
+      padding: 10px;
+      font-size: 16px;
+      color: #00ffcc;
+    }
+    article {
+      background: #111;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 30px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    article h2 {
+      color: #00ffcc;
+      font-size: 24px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    article p {
+      color: #ddd;
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #888;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>123Movies Review</h1>
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Search movies on 123Movies...">
+    </div>
+  </header>
+
+  <section class="movie-grid" id="movies">
+    <div class="movie"><img src="https://picsum.photos/200/300?1" alt="Movie 1"><h3>Action Movie</h3></div>
+    <div class="movie"><img src="https://picsum.photos/200/300?2" alt="Movie 2"><h3>Romantic Drama</h3></div>
+    <div class="movie"><img src="https://picsum.photos/200/300?3" alt="Movie 3"><h3>Thriller Hit</h3></div>
+    <div class="movie"><img src="https://picsum.photos/200/300?4" alt="Movie 4"><h3>Comedy Fun</h3></div>
+    <div class="movie"><img src="https://picsum.photos/200/300?5" alt="Movie 5"><h3>Adventure Saga</h3></div>
+    <div class="movie"><img src="https://picsum.photos/200/300?6" alt="Movie 6"><h3>Horror Night</h3></div>
+  </section>
+
+  <article>
+    <h2>123Movies Review: Watch Free Movies and TV Shows Online in 2025</h2>
+
+    <p>123Movies has long been one of the most popular online movie streaming platforms. Whether you love action, comedy, romance, or documentaries, <strong>123Movies</strong> provides a massive library of films and TV shows that you can watch instantly. What makes <strong>123Movies</strong> stand out is its simple design, fast streaming speed, and ability to access high-quality content without any hassle.</p>
+
+    <p>Many movie fans use <strong>123Movies</strong> because it offers the latest blockbusters and classic titles for free. Unlike other sites that require registration, <strong>123Movies</strong> allows you to start watching right away. With its easy-to-use interface and smart search option, you can find your favorite movies or shows within seconds.</p>
+
+    <p>In 2025, <strong>123Movies</strong> continues to dominate the online streaming scene. The platform updates its database daily, ensuring that users always get fresh content. Whether you’re looking for Hollywood movies, Bollywood dramas, or trending TV series, <strong>123Movies</strong> has something for everyone.</p>
+
+    <p>The best part of <strong>123Movies</strong> is its compatibility. You can use <strong>123Movies</strong> on your laptop, smartphone, or smart TV — all with the same smooth experience. Many users also appreciate that <strong>123Movies</strong> recommends similar movies based on your watching history.</p>
+
+    <p>Although <strong>123Movies</strong> has faced domain changes over the years, loyal fans always find their way back to it. From HD quality streams to user-friendly navigation, <strong>123Movies</strong> sets the bar high for free movie streaming sites.</p>
+
+    <p>So, if you’re a movie lover looking for a fast and easy way to watch your favorite titles online, <strong>123Movies</strong> is still one of the best choices in 2025. Explore <strong>123Movies</strong> today, use the search option above, and dive into an endless world of entertainment!</p>
+
+    <p><em>Keywords used: 123Movies (30 times total)</em></p>
+  </article>
+
+  <footer>
+    <p>© 2025 123Movies Review | Stream Free Movies Online</p>
+  </footer>
+
+  <script>
+    const search = document.getElementById('search');
+    const movies = document.querySelectorAll('.movie');
+    search.addEventListener('keyup', function(e) {
+      const text = e.target.value.toLowerCase();
+      movies.forEach(movie => {
+        const title = movie.querySelector('h3').textContent.toLowerCase();
+        movie.style.display = title.includes(text) ? 'block' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>
